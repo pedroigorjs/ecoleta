@@ -15,5 +15,5 @@ app.use(routes);
 app.use('/uploads', express.static(resolve(__dirname, '..', 'uploads')));
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server is running at http://${HOST}:${PORT}`);
+  console.log(`🚀 Server is running at ${HOST}:${PORT}`);
 });
