@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "start": "ts-node src/server.ts",
     "dev": "ts-node-dev --transpile-only --ignore node_modules src/server.ts",
     "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
